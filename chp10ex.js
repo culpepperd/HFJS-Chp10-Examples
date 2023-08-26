@@ -1,3 +1,7 @@
+/*
+    It's important to see functions as values, too.
+*/
+
 // quack() is defined with a function declaration
 function quack(num) {
     for (var i = 0; i < num; i++) {
