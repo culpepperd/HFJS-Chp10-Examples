@@ -2,6 +2,38 @@
     It's important to see functions as values, too.
 */
 
+
+/*
+// Chp 10 - pg. 449 "Sharpen Your Pencil"
+function fun(echo) {
+    console.log(echo);
+}
+
+fun("hello");
+
+function boo(aFunction) {
+    aFunction("boo");
+}
+
+boo(fun);
+
+console.log(fun);
+
+fun(boo);
+
+var moreFun = fun;
+
+moreFun("hello again");
+
+function echoMaker() {
+    return fun;
+}
+
+var bigFun = echoMaker();
+bigFun("Is there an echo?");
+*/
+
+/*
 // Chp 10 - pg. 440 "Sharpen Your Pencil"
 var winner = function() { alert("WINNER!") };
 var loser = function() { alert("LOSER!") };
@@ -26,6 +58,7 @@ a = c;
 a = b;
 b = c;
 a();
+*/
 
 /* 
 // Chp 10 - pg. 439
