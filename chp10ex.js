@@ -1,6 +1,10 @@
 /*
-    It's important to see functions as values, too.
+    It's important to see functions as values.
+    Two ways to create functions: Declaration or Expression
+    function declaration() {}
+    var expression = function() {}
 */
+
 
 
 /*
