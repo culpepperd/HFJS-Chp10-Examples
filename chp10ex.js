@@ -5,6 +5,20 @@
     var expression = function() {}
 */
 
+// Chp 10 - pg. 453 "Sharpen Your Pencil"
+// addN(n) takes one argument, then creates a function that also
+// takes an argument, and adds those together. 
+function addN(n) {
+    var adder = function(x) {
+        return n + x;
+    };
+    return adder;
+}
+
+var add2 = addN(2);
+console.log(add2(4)); // = 6
+console.log(add2(10)); // = 12
+console.log(add2(100)); // = 102
 
 
 /*
