@@ -5,6 +5,14 @@
     var expression = function() {}
 */
 
+var numbersArray = [5, 3, 7, 9, 0, 1, 4, 6, 2, 8];
+var wordsArray = ["Floof", "Shmoof", "Doof", "Woof", "Alligator"];
+numbersArray.sort();
+wordsArray.sort();
+console.log(numbersArray);
+console.log(wordsArray);
+
+/*
 // Chp 10 - pg. 453 "Sharpen Your Pencil"
 // addN(n) takes one argument, then creates a function that also
 // takes an argument, and adds those together. 
@@ -19,7 +27,7 @@ var add2 = addN(2);
 console.log(add2(4)); // = 6
 console.log(add2(10)); // = 12
 console.log(add2(100)); // = 102
-
+*/
 
 /*
 // Chp 10 - pg. 449 "Sharpen Your Pencil"
