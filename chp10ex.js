@@ -1,16 +1,39 @@
-/*
+/************************************************************
     It's important to see functions as values.
     Two ways to create functions: Declaration or Expression
     function declaration() {}
     var expression = function() {}
+************************************************************/
+
+/*
+var wordsArray = ["Floof", "Shmoof", "Doof", "Woof", "Alligator"];
+
+wordsArray.sort();
+console.log(wordsArray);
 */
 
-var numbersArray = [5, 3, 7, 9, 0, 1, 4, 6, 2, 8];
-var wordsArray = ["Floof", "Shmoof", "Doof", "Woof", "Alligator"];
-numbersArray.sort();
-wordsArray.sort();
+var numbersArray = [24, 12, 16, 8, 82, 28, 36];
+
+// comparison function for the array's sort() method
+function numSorting(a, b) {
+    if ( a > b ) {
+        return 1;
+    } else if ( a === b ) {
+        return 0;
+    } else {
+        return -1;
+    }
+    /*
+    console.log("a: " + a + ", b: " + b);
+    console.log(a - b);
+    return a - b;
+    */
+}
+
+numbersArray.sort(numSorting);
 console.log(numbersArray);
-console.log(wordsArray);
+
+
 
 /*
 // Chp 10 - pg. 453 "Sharpen Your Pencil"
